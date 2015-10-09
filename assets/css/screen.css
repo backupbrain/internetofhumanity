@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "Varela Round";
+  src: url("../fonts/valera-round.ttf");
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	text-align:center;
+}
+
+p, div, textarea, input, button, td, th, dd, dt {
+	line-height: 1.75;
+	font-size: 1.2em;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #555;
+}
+
+
+header {
+  background: url('../img/clouds-bg.jpg') #A98436 center center no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  height: 500px;
+  padding-top: 50px;
+}
+
+header h1 {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	background: url(../img/internetofhumanity.png) top center no-repeat;
+	height: 300px;
+	padding-top: 350px;
+	color: #fff;
+	font-size: 3.5em;
+}
+
+
+h1 {
+	font-family: "Varela Round", Arial, sans-serif;
+	font-size: 3em;
+	line-height: 1.2;
+	color: #555;
+}
+
+
+header, article, footer {
+	clear: both;
+}
+
+section.container {
+	width: 800px;
+	text-align: left;
+	margin: 0px auto; 
+}
+
+
+
+dl.author {
+	width: 45%;
+	text-align: center;
+	padding: 10px;
+	float: left;
+	margin: 0px 1em 40px 0px;
+}
+
+.author img {
+    border-radius: 50%;
+}
+.author dt { 
+	font-family: "Varela Round", Arial, sans-serif;
+	font-size: 1.5em;
+	line-height: 1.2;
+	margin: 30px 0px 20px 0px;
+}
+
+
+.author dd {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+
+.contact p.left {
+	width: 45%;
+	float: left;
+}
+.contact form#contact_form {
+	width: 45%;
+	margin-left: 50%;
+}
+
+#contact_form input[type="submit"] {
+	border: 3px solid #f2777a;
+	padding: 10px 20px;
+	background: #f2777a;
+	color: #fff;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+#contact_form label {
+	font-family: "Varela Round", Arial, sans-serif;
+	font-size: 1.0em;
+}
+
+.formError {
+	display: none; 
+	color: #fff;
+	background: #f2777a;
+	padding: 10px 20px;
+
+}
+
+.footer_padding {
+	height: 50px;
+}
+
+footer {
+	background-color: #555;
+	padding: 20px 0px 50px 0px;
+}
+footer p {
+	color: #999;
+	font-size: .9em;
+}
